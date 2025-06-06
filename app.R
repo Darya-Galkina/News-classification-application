@@ -17,8 +17,8 @@ library(bslib)
 
 
 # Загрузка натренированного препроцессора и модели
-onehot_rec <- readRDS("D:/Desktop/R directory/classification/onehot_prep.rds")
-model <- load_model("D:/Desktop/R directory/classification/my_dense_model.keras")
+onehot_rec <- readRDS("onehot_prep.rds")
+model <- load_model("my_dense_model.keras")
 
 # Список названий классов 
 class_names <- c("Business", "Sci/Tech", "Sports", "World") 
